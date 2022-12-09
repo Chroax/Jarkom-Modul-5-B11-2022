@@ -178,7 +178,7 @@ PENJELASAN
 
 PENJELASAN
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/B/Capture2.png)
+![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/B/Capture2.jpg)
 
 PENJELASAN
 
