@@ -165,6 +165,8 @@
 
 ![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/A/Capture.png)
 
+![image](https://user-images.githubusercontent.com/90445721/206849799-4f1b9345-2331-4fdf-b1fc-f42e0b0e9b0f.png)
+
 ## Question B
 
 > Untuk menjaga perdamaian dunia, Loid ingin meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM setelah melakukan subnetting.
