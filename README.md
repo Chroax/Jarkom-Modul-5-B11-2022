@@ -215,7 +215,7 @@ Setelah lakukan network configuration pada setiap node, lakukan routing pada GNS
 
 ### Script
 
-PENJELASAN
+Pada Ostania dan Westalis, install `apt-get install isc-dhcp-relay -y`. Kemudian edit server dengan mengarahkan dhcp-relay menuju WISE `192.178.7.131` lalu tambahkan interfaces. Lakukan `service isc-dhcp-relay start`.
 
 - **Ostania**
     ```
@@ -246,7 +246,6 @@ PENJELASAN
     service isc-dhcp-relay start
     ```
 
-PENJELASAN
 
 - **Westalis**
     ```
@@ -277,7 +276,7 @@ PENJELASAN
     service isc-dhcp-relay start
     ```
 
-PENJELASAN
+Pada Eden, install `apt-get install bind9 -y`, kemudian masukkan nameservers. Lakukan `service bind9 start`.
 
 - **Eden**
     ```
@@ -311,7 +310,7 @@ PENJELASAN
     service bind9 start
     ```
 
-PENJELASAN
+Pada WISE, edit file `/etc/default/isc-dhcp-server`, dengan menambahkan `INTERFACES="eth0"`. Pada dhcp-server isikan data pada `/etc/dhcp/dhcpd.conf` di WISE, lalu lakukan `service isc-dhcp-server restart`.
 
 - **Wise**
     ```
@@ -376,7 +375,7 @@ PENJELASAN
     service isc-dhcp-server restart
     ```
 
-PENJELASAN
+Pada SSS dan Garden, install `apt-get install apache2` dan `apt-get install libapache2-mod-php7.0` kemudian lakukan `service apache2 start`.
 
 - **SSS**
     ```
