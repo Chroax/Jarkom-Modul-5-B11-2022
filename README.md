@@ -530,7 +530,7 @@ Keterangan:
 
 ### Script
 
-PENJELASAN
+Konfigurasi untuk masing-masing node adalah 80 dan 443 menggunakan `--dport`, serta akan dibatasi secara bergantian menggunakan `--every 2`. Oleh karena itu, distribusinya akan dilakukan secara bergantian dengan mengarahkan ke node lain menggunakan `-to-destination`.
 
 - **Ostania**
     ```
