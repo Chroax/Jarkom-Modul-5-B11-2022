@@ -459,7 +459,7 @@ Keterangan:
 - `j DROP`: Paket di-drop
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal2/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206858705-ee5c5b48-94dd-4dd3-affd-98e720cbc7f7.png)
 
 ## Question 3
 
@@ -557,7 +557,7 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal6/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206858681-4e5521f6-fde0-4af3-8bd4-da3e4165d3c9.png)
 
 ## Kendala
 1. Ada kebingungan saat melakukan testing untuk soal no 2
