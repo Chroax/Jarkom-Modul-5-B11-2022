@@ -394,7 +394,6 @@ Pada SSS dan Garden, install `apt-get install apache2` dan `apt-get install liba
     service apache2 start
     ```
 
-PENJELASAN
 
 - **Garden**
     ```
@@ -423,7 +422,9 @@ PENJELASAN
 
 ### Script
 
-PENJELASAN
+Pertama, cek IP dari Strix yang berhubungan dengan NAT dengan menggunakan command `ip a`. Karena diminta untuk tidak menggunakan `MASQUERADE`, maka digunakan SNAT. Source akan diubah dari yang awalnya 0.0 ke Strix dengan --to-source `192.168.122.80`.
+
+Cek apakah eth0 pada setiap client sudah berada dalam range yang ada di dalam tree. Lakukan command `cat /etc/resolv.conf` pada tiap client. Kemudian lakukan `ping google.com` pada tiap client.
 
 - **Strix**
     ```
