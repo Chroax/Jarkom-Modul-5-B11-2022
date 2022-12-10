@@ -170,17 +170,17 @@
 > Untuk menjaga perdamaian dunia, Loid ingin meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM setelah melakukan subnetting.
 
 ### Answer
-Teknik yang digunakkan adalah VLSM
+Dalam mengerjakan praktikum modul 5, kami menggunakan teknik VLSM.
 
-PENJELASAN
+Pertama, tentukan subnet pada topologi. Setelah itu, setiap subnet akan dicatat berapa jumlah IP yang dibutuhkan dan netmask yang dihasilkan sesuai dengan node yang terhubung.
 
 ![image](https://user-images.githubusercontent.com/90445721/206849866-c5191774-a83d-48eb-ab75-b96bd0d066fb.png)
 
-PENJELASAN
+Setelah mendapatkan jumlah IP dari masing-masing subnet, buat VLSM Treenya. Dengan subnet induk `192.178.0.0` dengan netmask /21, lakukan pembagian IP sampai subnet paling bawah
 
 ![image](https://user-images.githubusercontent.com/90445721/206849873-82a5bd5f-8166-4b25-b6e4-6df89b04a8f1.png)
 
-PENJELASAN
+Gambar di bawah ini adalah hasil pembagian dari VLSM Tree. Dengan NID per setiap subnet dan nama devicenya.
 
 ![image](https://user-images.githubusercontent.com/90445721/206849878-8b4b5bee-f997-4d37-b2fc-269be1545a1b.png)
 
