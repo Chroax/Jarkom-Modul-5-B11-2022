@@ -468,14 +468,6 @@ Keterangan:
 
 ### Script
 
-Keterangan:
-- `A INPUT`: Menggunakan chain INPUT
-- `p icmp`: Mendefinisikan protokol yang digunakan, yaitu ICMP (ping)
-- `m connlimit`: Menggunakan rule connection limit
-- `connlimit-above 2`: Limit yang ditangkap paket adalah di atas 2
-- `connlimit-mask 0`: Hanya memperbolehkan 2 koneksi setiap subnet dalam satu waktu
-- `j DROP`: Paket di-drop
-
 - **Eden**
     ```
     iptables -A INPUT -p icmp -m connlimit --connlimit-above 2 --connlimit-mask 0 -j DROP
@@ -485,6 +477,14 @@ Keterangan:
     ```
     iptables -A INPUT -p icmp -m connlimit --connlimit-above 2 --connlimit-mask 0 -j DROP
     ```
+    
+Keterangan:
+- `A INPUT`: Menggunakan chain INPUT
+- `p icmp`: Mendefinisikan protokol yang digunakan, yaitu ICMP (ping)
+- `m connlimit`: Menggunakan rule connection limit
+- `connlimit-above 2`: Limit yang ditangkap paket adalah di atas 2
+- `connlimit-mask 0`: Hanya memperbolehkan 2 koneksi setiap subnet dalam satu waktu
+- `j DROP`: Paket di-drop
 
 ### Test
 
@@ -498,8 +498,6 @@ Keterangan:
 
 ### Script
 
-PENJELASAN
-
 - **Garden**
     ```
     iptables -A INPUT -m time --timestart 07:00 --timestop 16:00 --weekdays Mon,Tue,Wed,Thu,Fri -j ACCEPT
@@ -511,6 +509,14 @@ PENJELASAN
     iptables -A INPUT -m time --timestart 07:00 --timestop 16:00 --weekdays Mon,Tue,Wed,Thu,Fri -j ACCEPT
     iptables -A INPUT -j REJECT
     ```
+
+Keterangan:
+- `A INPUT`: Menggunakan chain INPUT
+- `m time`: Menggunakan rule time
+- `weekdays Mon,Tue,Wed,Thu,Fri`: Melimitasi hanya untuk weekdays (Senin-Jumat)
+- `timestart 07:00`: Mendefinisikan waktu mulai yaitu 07:00
+- `timestop 16:00`: Mendefinisikan waktu berhenti yaitu 16:00
+- `j REJECT`: Paket ditolak
 
 ### Test
 
