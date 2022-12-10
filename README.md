@@ -190,7 +190,7 @@ Gambar di bawah ini adalah hasil pembagian dari VLSM Tree. Dengan NID per setiap
 
 ### Script
 
-PENJELASAN
+Setelah lakukan network configuration pada setiap node, lakukan routing pada GNS3 agar semua router, client, dan server saling terhubung.
 
 - **Westalis**
     ```
