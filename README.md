@@ -457,6 +457,7 @@ Keterangan:
 - `d 192.178.7.131`: Mendefinisikan alamat tujuan dari paket (DHCP) berada pada subnet 192.178.7.131
 - `i eth0`: Paket masuk dari eth0 Strix
 - `j DROP`: Paket di-drop
+
 ### Test
 
 ![image](https://user-images.githubusercontent.com/90445721/206858705-ee5c5b48-94dd-4dd3-affd-98e720cbc7f7.png)
@@ -467,7 +468,13 @@ Keterangan:
 
 ### Script
 
-PENJELASAN
+Keterangan:
+- `A INPUT`: Menggunakan chain INPUT
+- `p icmp`: Mendefinisikan protokol yang digunakan, yaitu ICMP (ping)
+- `m connlimit`: Menggunakan rule connection limit
+- `connlimit-above 2`: Limit yang ditangkap paket adalah di atas 2
+- `connlimit-mask 0`: Hanya memperbolehkan 2 koneksi setiap subnet dalam satu waktu
+- `j DROP`: Paket di-drop
 
 - **Eden**
     ```
