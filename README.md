@@ -445,14 +445,18 @@ Cek apakah eth0 pada setiap client sudah berada dalam range yang ada di dalam tr
 
 ### Script
 
-PENJELASAN
-
 - **Strix**
     ```
     iptables -A FORWARD -p tcp -d 192.178.7.131 -i eth0 -j DROP # Drop semua TCP
     iptables -A FORWARD -p udp -d 192.178.7.131 -i eth0 -j DROP # Drop semua UDP
     ```
-
+Keterangan:
+- `A FORWARD`: Menggunakan chain FORWARD
+- `p tcp`: Mendefinisikan protokol yang digunakan, yaitu tcp
+- `p udp`: Mendefinisikan protokol yang digunakan, yaitu udp
+- `d 192.178.7.131`: Mendefinisikan alamat tujuan dari paket (DHCP) berada pada subnet 192.178.7.131
+- `i eth0`: Paket masuk dari eth0 Strix
+- `j DROP`: Paket di-drop
 ### Test
 
 ![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal2/Capture.png)
