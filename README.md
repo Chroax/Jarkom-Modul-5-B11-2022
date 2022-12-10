@@ -550,7 +550,7 @@ Konfigurasi untuk masing-masing node adalah 80 dan 443 menggunakan `--dport`, se
 
 ### Script
 
-PENJELASAN
+Lakukan command dibawah ini untuk melihat paket yang akan di drop
 
 - **Eden**
     ```
