@@ -163,8 +163,6 @@
 
 ### Answer
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/A/Capture.png)
-
 ![image](https://user-images.githubusercontent.com/90445721/206849799-4f1b9345-2331-4fdf-b1fc-f42e0b0e9b0f.png)
 
 ## Question B
@@ -176,15 +174,15 @@ Teknik yang digunakkan adalah VLSM
 
 PENJELASAN
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/B/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206849866-c5191774-a83d-48eb-ab75-b96bd0d066fb.png)
 
 PENJELASAN
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/B/Capture2.jpg)
+![image](https://user-images.githubusercontent.com/90445721/206849873-82a5bd5f-8166-4b25-b6e4-6df89b04a8f1.png)
 
 PENJELASAN
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/B/Capture3.png)
+![image](https://user-images.githubusercontent.com/90445721/206849878-8b4b5bee-f997-4d37-b2fc-269be1545a1b.png)
 
 ## Question C
 
@@ -209,7 +207,7 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/C/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206849897-381417b8-bd44-4921-852d-1e6874c69b0a.png)
 
 ## Question D
 
@@ -418,7 +416,7 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/D/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206849919-b8cc846c-4397-4203-9025-93b6a7fd6d06.png)
 
 ## Question 1
 
@@ -435,11 +433,11 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal1/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206849934-1293be52-6b81-4732-a710-a86d3daacf47.png)
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal1/Capture2.png)
+![image](https://user-images.githubusercontent.com/90445721/206849941-8b558d38-21c0-4f05-a874-55fda2bf5dfb.png)
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal1/Capture3.png)
+![image](https://user-images.githubusercontent.com/90445721/206849948-c41a7dbc-c2b5-473f-b547-bc9ed5fc75b5.png)
 
 ## Question 2
 
@@ -479,9 +477,9 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal3/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206850009-16684bef-cace-4672-bf06-d3ebf12effe9.png)
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal3/Capture2.png)
+![image](https://user-images.githubusercontent.com/90445721/206850016-45ae489d-efbf-4700-ba28-f4134b5baade.png)
 
 ## Question 4
 
@@ -505,9 +503,9 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal4/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206850056-0589cb23-c89a-4115-a1b3-3f9f42908bd3.png)
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal4/Capture2.png)
+![image](https://user-images.githubusercontent.com/90445721/206850061-b22ea3ed-8a63-4309-b522-f00f5fc1be85.png)
 
 ## Question 5
 
@@ -527,7 +525,7 @@ PENJELASAN
 
 ### Test
 
-![image](https://raw.githubusercontent.com/Chroax/Jarkom-Modul-5-B11-2022/main/images/Soal5/Capture.png)
+![image](https://user-images.githubusercontent.com/90445721/206850083-f0df4134-3508-4fc2-bb63-68301936c84d.png)
 
 ## Question 6
 
